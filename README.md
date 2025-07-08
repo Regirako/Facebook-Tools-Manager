@@ -62,7 +62,7 @@ Facebook-Tools-Manager/
 3. Pressione <kbd>F12</kbd> para abrir o **DevTools (F12) ou Modo Desenvolvedor** e vá na aba **Console**
 4. Copie todo o script [`facebook-cancel-requests.js`](https://github.com/Regirako/Facebook-Tools-Manager/blob/main/scripts/facebook-cancel-requests.js)
 5. Cole no **Console** e pressione <kbd>Enter</kbd>
-6. O script irá abrir a aba "View sent requests", e então começará a cancelar automaticamente os pedidos
+6. O script irá abrir a aba **"View sent requests"**, e então começará a cancelar automaticamente os pedidos
 
 📽️ *Demonstração visual (GIF):*
 ![Cancel Friend Requests](assets/cancel-requests.gif)
