@@ -52,13 +52,15 @@ Facebook-Tools-Manager/
 * Cancela todas as solicitações de amizade pendentes
 * Realiza scroll dinâmico para carregar novos usuários
 
-📎 Recomendado rodar duas vezes para maior eficácia em clicar em todos "Cancel Requests" dos Amigos Pendentes
+📎 Recomendado rodar duas vezes para maior eficácia em clicar em todos **"Cancel Requests"** dos Amigos Pendentes
+
+📌 **Importante:** Ao iniciar um novo ciclo, pressione <kbd>F5</kbd> (atualizar a página) antes de colar o script novamente no console.
 
 **Como usar:**
 
 1. Acesse [`https://www.facebook.com/friends/requests`](https://www.facebook.com/friends/requests)
 2. Aguarde a página carregar totalmente
-3. Pressione <kbd>F12</kbd> para abrir o DevTools e vá na aba **Console**
+3. Pressione <kbd>F12</kbd> para abrir o DevTools (F12) ou Modo Desenvolvedor e vá na aba **Console**
 4. Cole o script `facebook-cancel-requests.js` e pressione <kbd>Enter</kbd>
 5. O script irá abrir a aba "View sent requests", e então começará a cancelar automaticamente os pedidos
 
@@ -83,11 +85,13 @@ Facebook-Tools-Manager/
 * O segundo Ciclo do Script dá "Unfollow" nos últimos usuários que deu "Follow" anteriormente.
 * É necessário esses dois Ciclos porque o Facebook às vezes buga a página do "Following" e o Usuário da Lista só é excluído quando você dá "Follow" e "Unfollow" posteriormente.
 
+📌 **Importante:** Ao iniciar um novo ciclo, pressione <kbd>F5</kbd> (atualizar a página) antes de colar o script novamente no console.
+
 **Como usar:**
 
 1. Acesse `https://www.facebook.com/[SEU_USER]/following/` substituindo `[SEU_USER]` pelo seu nome de usuário do Facebook
-2. Aguarde a lista de usuários carregarem por completo
-3. Pressione <kbd>F12</kbd> para abrir o DevTools e vá na aba **Console**
+2. Aguarde a lista de usuários carregar por completo
+3. Pressione <kbd>F12</kbd> para abrir o DevTools (F12) ou Modo Desenvolvedor e vá na aba **Console**
 4. Cole o script `facebook-follow-unfollow.js` e pressione <kbd>Enter</kbd>
 5. O script irá percorrer cada usuário automaticamente e executar as ações de Follow/Unfollow conforme necessário
 
@@ -101,7 +105,7 @@ Facebook-Tools-Manager/
 * O Facebook atualiza frequentemente seus seletores internos, o que pode afetar o funcionamento dos scripts.
 * Caso algo não funcione:
 
-  * Atualize a página
+  * Atualize a página com <kbd>F5</kbd>
   * Rode o script novamente
   * Verifique se está na página correta
   * Certifique-se de que o idioma da sua conta está em **English (UK)**
