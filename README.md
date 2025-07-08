@@ -60,7 +60,7 @@ Facebook-Tools-Manager/
 
 1. Acesse [`https://www.facebook.com/friends/requests`](https://www.facebook.com/friends/requests)
 2. Aguarde a página carregar totalmente
-3. Pressione <kbd>F12</kbd> para abrir o DevTools (F12) ou Modo Desenvolvedor e vá na aba **Console**
+3. Pressione <kbd>F12</kbd> para abrir o **DevTools (F12) ou Modo Desenvolvedor** e vá na aba **Console**
 4. Cole o script `facebook-cancel-requests.js` e pressione <kbd>Enter</kbd>
 5. O script irá abrir a aba "View sent requests", e então começará a cancelar automaticamente os pedidos
 
@@ -91,7 +91,7 @@ Facebook-Tools-Manager/
 
 1. Acesse `https://www.facebook.com/[SEU_USER]/following/` substituindo `[SEU_USER]` pelo seu nome de usuário do Facebook
 2. Aguarde a lista de usuários carregar por completo
-3. Pressione <kbd>F12</kbd> para abrir o DevTools (F12) ou Modo Desenvolvedor e vá na aba **Console**
+3. Pressione <kbd>F12</kbd> para abrir o **DevTools (F12) ou Modo Desenvolvedor** e vá na aba **Console**
 4. Cole o script `facebook-follow-unfollow.js` e pressione <kbd>Enter</kbd>
 5. O script irá percorrer cada usuário automaticamente e executar as ações de Follow/Unfollow conforme necessário
 
