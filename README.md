@@ -50,9 +50,8 @@ Facebook-Tools-Manager/
 * Cancela todas as solicitações de amizade pendentes
 * Realiza scroll dinâmico para carregar novos usuários
 
-📎 Recomendado rodar duas vezes para maior eficácia em clicar em todos **"Cancel Requests"** dos Amigos Pendentes
-
-📌 **Importante:** Ao iniciar um novo ciclo, pressione <kbd>F5</kbd> (atualizar a página) antes de colar o script novamente no console.
+📌 **Importante:** Recomendado rodar duas vezes para maior eficácia em clicar em todos **"Cancel Requests"** dos Amigos Pendentes
+* Ao iniciar um novo ciclo, pressione <kbd>F5</kbd> (atualizar a página) antes de colar o script novamente no console
 
 **Como usar:**
 
@@ -75,13 +74,11 @@ Facebook-Tools-Manager/
 * Se encontrar um perfil que não está seguido, realiza o **"Follow"**
 * Ideal para forçar atualização do estado de seguidores no Facebook
 
-📎 Recomendado rodar duas vezes para maior eficácia em dar **"Unfollow"** em todos Usuários da lista de **"Following"**.
-
-* O primeiro Ciclo do Script dá **"Unfollow"** em quem está seguindo e **"Follow"** em quem não está.
-* O segundo Ciclo do Script dá **"Unfollow"** nos últimos usuários que deu **"Follow"** anteriormente.
-* É necessário esses dois Ciclos porque o Facebook às vezes buga a página do **"Following"** e o Usuário da lista só é excluído quando você dá **"Follow"** e **"Unfollow"** posteriormente.
-
-📌 **Importante:** Ao iniciar um novo ciclo, pressione <kbd>F5</kbd> (atualizar a página) antes de colar o script novamente no console.
+📌 **Importante:** Recomendado rodar duas vezes para maior eficácia em dar **"Unfollow"** em todos Usuários da lista de **"Following"**
+* Ao iniciar um novo ciclo, pressione <kbd>F5</kbd> (atualizar a página) antes de colar o script novamente no console
+* O primeiro Ciclo do Script dá **"Unfollow"** em quem está seguindo e **"Follow"** em quem não está
+* O segundo Ciclo do Script dá **"Unfollow"** nos últimos usuários que deu **"Follow"** anteriormente
+* É necessário esses dois Ciclos porque o Facebook às vezes buga a página do **"Following"** e o Usuário da lista só é excluído quando você dá **"Follow"** e **"Unfollow"** posteriormente
 
 **Como usar:**
 
