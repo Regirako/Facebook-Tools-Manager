@@ -89,14 +89,10 @@ Facebook-Tools-Manager/
 
 ---
 
-## 👨‍💻 Desenvolvedor
+## 🧊 Licença
 
-Feito com 🧡 por [@regirako](https://github.com/regirako)
-
-Contribuições, feedbacks e melhorias são bem-vindos!
+Este projeto é apenas para uso pessoal e não possui licença comercial.
 
 ---
 
-## 📜 Licença
-
-Distribuído sob a **Licença MIT**. Consulte `LICENSE` para mais detalhes.
+Criado com 🧡 por [@regirako](https://github.com/regirako)
