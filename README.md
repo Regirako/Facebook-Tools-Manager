@@ -4,7 +4,7 @@
   <img src="assets/facebook-tools-banner-updated.png" alt="Facebook Tools Manager" width="100%">
 </p>
 
-**Automatize tarefas repetitivas no Facebook com apenas um clique.** Este projeto oferece duas ferramentas poderosas e diretas, desenvolvidas em JavaScript puro para rodar diretamente no navegador:
+**Automatize tarefas repetitivas no Facebook de maneira segura e eficaz.** Este projeto oferece duas ferramentas diretas, desenvolvidas em JavaScript puro para rodar diretamente no navegador:
 
 * 🚫 Cancelar Solicitações de Amizade Enviadas
 * 🔄 Seguir e Deixar de Seguir Usuários
@@ -30,7 +30,7 @@ Facebook-Tools-Manager/
 
 ## 📌 Requisitos
 
-* Utilize um **navegador desktop moderno**: Google Chrome, Microsoft Edge, Firefox ou Brave.
+* Utilize um **navegador desktop moderno**: Microsoft Edge, Google Chrome, Firefox ou Brave.
 * Acesse a página correta para o script funcionar (detalhado abaixo).
 * Abra o **DevTools (F12) ou Modo Desenvolvedor** → aba **Console**.
 * Cole o conteúdo do script e pressione <kbd>Enter</kbd>.
@@ -47,11 +47,11 @@ Facebook-Tools-Manager/
 
 **Funcionalidade:**
 
-* Abre automaticamente a aba "View sent requests"
+* Abre automaticamente a aba **"View sent requests"**
 * Cancela todas as solicitações de amizade pendentes
-* Realiza scroll dinâmico para carregar novos itens
+* Realiza scroll dinâmico para carregar novos usuários
 
-📎 Recomendado rodar duas vezes.
+📎 Recomendado rodar duas vezes para maior eficácia em clicar em todos "Cancel Requests" dos Amigos Pendentes
 
 📽️ *Demonstração visual (GIF):*
 ![Cancel Friend Requests](assets/cancel-requests.gif)
@@ -68,7 +68,10 @@ Facebook-Tools-Manager/
 * Se encontrar um perfil que não está seguido, realiza o "Follow"
 * Ideal para forçar atualização do estado de seguidores no Facebook
 
-📎 Recomendado rodar duas vezes.
+📎 Recomendado rodar duas vezes para maior eficácia em dar "Unfollow" em todos Usuários da lista de "Following".
+* O primeiro Ciclo do Script da "Unfollow" em quem está seguindo e "Follow" em quem não está.
+* O segundo Ciclo do Script da "Unfollow" nos últimos usuários que deu "Follow" anteriormente.
+* É necessário esses dois Ciclos por que o Facebook as vezes buga a página do "Following" e o Usuário da Lista só é excluído quando você da "Follow" e "Unfollow" posteriormente.
 
 📽️ *Demonstração visual (GIF):*
 ![Follow & Unfollow](assets/follow-unfollow.gif)
@@ -79,7 +82,6 @@ Facebook-Tools-Manager/
 
 * O Facebook atualiza frequentemente seus seletores internos, o que pode afetar o funcionamento dos scripts.
 * Caso algo não funcione:
-
   * Atualize a página
   * Rode o script novamente
   * Verifique se está na página correta
