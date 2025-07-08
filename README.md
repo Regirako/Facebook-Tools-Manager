@@ -31,6 +31,7 @@ Facebook-Tools-Manager/
 ## 📌 Requisitos
 
 * Utilize um **navegador desktop moderno**: Microsoft Edge, Google Chrome, Firefox ou Brave.
+* Mantenha seu Facebook com o idioma configurado para **English (UK)**. Outros idiomas podem impedir o reconhecimento dos botões.
 * Acesse a página correta para o script funcionar (detalhado abaixo).
 * Abra o **DevTools (F12) ou Modo Desenvolvedor** → aba **Console**.
 * Cole o conteúdo do script e pressione <kbd>Enter</kbd>.
@@ -53,6 +54,14 @@ Facebook-Tools-Manager/
 
 📎 Recomendado rodar duas vezes para maior eficácia em clicar em todos "Cancel Requests" dos Amigos Pendentes
 
+**Como usar:**
+
+1. Acesse [`https://www.facebook.com/friends/requests`](https://www.facebook.com/friends/requests)
+2. Aguarde a página carregar totalmente
+3. Pressione <kbd>F12</kbd> para abrir o DevTools e vá na aba **Console**
+4. Cole o script `facebook-cancel-requests.js` e pressione <kbd>Enter</kbd>
+5. O script irá abrir a aba "View sent requests", e então começará a cancelar automaticamente os pedidos
+
 📽️ *Demonstração visual (GIF):*
 ![Cancel Friend Requests](assets/cancel-requests.gif)
 
@@ -69,9 +78,18 @@ Facebook-Tools-Manager/
 * Ideal para forçar atualização do estado de seguidores no Facebook
 
 📎 Recomendado rodar duas vezes para maior eficácia em dar "Unfollow" em todos Usuários da lista de "Following".
-* O primeiro Ciclo do Script da "Unfollow" em quem está seguindo e "Follow" em quem não está.
-* O segundo Ciclo do Script da "Unfollow" nos últimos usuários que deu "Follow" anteriormente.
-* É necessário esses dois Ciclos por que o Facebook as vezes buga a página do "Following" e o Usuário da Lista só é excluído quando você da "Follow" e "Unfollow" posteriormente.
+
+* O primeiro Ciclo do Script dá "Unfollow" em quem está seguindo e "Follow" em quem não está.
+* O segundo Ciclo do Script dá "Unfollow" nos últimos usuários que deu "Follow" anteriormente.
+* É necessário esses dois Ciclos porque o Facebook às vezes buga a página do "Following" e o Usuário da Lista só é excluído quando você dá "Follow" e "Unfollow" posteriormente.
+
+**Como usar:**
+
+1. Acesse `https://www.facebook.com/[SEU_USER]/following/` substituindo `[SEU_USER]` pelo seu nome de usuário do Facebook
+2. Aguarde a lista de usuários carregarem por completo
+3. Pressione <kbd>F12</kbd> para abrir o DevTools e vá na aba **Console**
+4. Cole o script `facebook-follow-unfollow.js` e pressione <kbd>Enter</kbd>
+5. O script irá percorrer cada usuário automaticamente e executar as ações de Follow/Unfollow conforme necessário
 
 📽️ *Demonstração visual (GIF):*
 ![Follow & Unfollow](assets/follow-unfollow.gif)
@@ -82,9 +100,11 @@ Facebook-Tools-Manager/
 
 * O Facebook atualiza frequentemente seus seletores internos, o que pode afetar o funcionamento dos scripts.
 * Caso algo não funcione:
+
   * Atualize a página
   * Rode o script novamente
   * Verifique se está na página correta
+  * Certifique-se de que o idioma da sua conta está em **English (UK)**
 * Rodar o script mais de uma vez ajuda a garantir 100% de cobertura.
 
 ---
