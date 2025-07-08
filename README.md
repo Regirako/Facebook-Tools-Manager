@@ -1,7 +1,7 @@
 # Facebook Tools Manager
 
 <p align="center">
-  <img src="assets/banner.png" alt="Facebook Tools Manager" width="100%">
+  <img src="assets/facebook-tools-banner-updated.png" alt="Facebook Tools Manager" width="100%">
 </p>
 
 **Automatize tarefas repetitivas no Facebook com apenas um clique.** Este projeto oferece duas ferramentas poderosas e diretas, desenvolvidas em JavaScript puro para rodar diretamente no navegador:
@@ -19,7 +19,7 @@ Facebook-Tools-Manager/
 │   ├── facebook-follow-unfollow.js
 │   └── facebook-cancel-requests.js
 ├── assets/
-│   ├── banner.png
+│   ├── facebook-tools-banner-updated.png
 │   ├── follow-unfollow.gif
 │   └── cancel-requests.gif
 ├── LICENSE
@@ -32,7 +32,7 @@ Facebook-Tools-Manager/
 
 * Utilize um **navegador desktop moderno**: Google Chrome, Microsoft Edge, Firefox ou Brave.
 * Acesse a página correta para o script funcionar (detalhado abaixo).
-* Abra o **DevTools (F12)** → aba **Console**.
+* Abra o **DevTools (F12) ou Modo Desenvolvedor** → aba **Console**.
 * Cole o conteúdo do script e pressione <kbd>Enter</kbd>.
 
 > ⚠️ Pode levar de **20 a 50 segundos** para o script começar devido ao carregamento dinâmico do Facebook.
@@ -47,9 +47,11 @@ Facebook-Tools-Manager/
 
 **Funcionalidade:**
 
-* Abre automaticamente a aba "Solicitações Enviadas"
+* Abre automaticamente a aba "View sent requests"
 * Cancela todas as solicitações de amizade pendentes
 * Realiza scroll dinâmico para carregar novos itens
+
+📎 Recomendado rodar duas vezes.
 
 📽️ *Demonstração visual (GIF):*
 ![Cancel Friend Requests](assets/cancel-requests.gif)
@@ -62,17 +64,14 @@ Facebook-Tools-Manager/
 
 **Funcionalidade:**
 
-* Clica automaticamente em "Parar de seguir" em perfis seguidos
-* Se encontrar um perfil que não está seguido, realiza o "Seguir"
+* Clica automaticamente em "Unfollow" em perfis seguidos
+* Se encontrar um perfil que não está seguido, realiza o "Follow"
 * Ideal para forçar atualização do estado de seguidores no Facebook
+
+📎 Recomendado rodar duas vezes.
 
 📽️ *Demonstração visual (GIF):*
 ![Follow & Unfollow](assets/follow-unfollow.gif)
-
-📎 Recomendado rodar duas vezes:
-
-* 1ª: Segue todos não seguidos (se necessário)
-* 2ª: Remove todos definitivamente
 
 ---
 
@@ -90,7 +89,7 @@ Facebook-Tools-Manager/
 
 ## 👨‍💻 Desenvolvedor
 
-**Regirako** — [github.com/Regirako](https://github.com/Regirako)
+Feito com 🧡 por [@regirako](https://github.com/regirako)
 
 Contribuições, feedbacks e melhorias são bem-vindos!
 
