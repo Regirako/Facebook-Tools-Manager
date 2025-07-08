@@ -123,7 +123,7 @@ async function cancelAllSentRequests() {
 
   console.log(`🏁 Finished.\n❎ Cancelled: ${result.cancelled}\n❌ Failed: ${result.failed}`);
   console.log('✨ Facebook Cancel Requests By Regirako');
-  console.log('🌐 - https://github.com/Regirako/Facebook-Tools-Manager/');
+  console.log('🌐 - https://github.com/Regirako');
 }
 
 cancelAllSentRequests();
