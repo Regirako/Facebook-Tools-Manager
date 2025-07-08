@@ -44,8 +44,6 @@ Facebook-Tools-Manager/
 
 ### 1. 🚫 Facebook Cancel Friend Requests
 
-📍 Link: [`https://www.facebook.com/friends/requests`](https://www.facebook.com/friends/requests)
-
 **Funcionalidade:**
 
 * Abre automaticamente a aba **"View sent requests"**
@@ -70,8 +68,6 @@ Facebook-Tools-Manager/
 ---
 
 ### 2. 🔄 Facebook Follow & Unfollow
-
-📍 Link: `https://www.facebook.com/[SEU USER DO FACEBOOK]/following/`
 
 **Funcionalidade:**
 
