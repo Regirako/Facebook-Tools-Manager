@@ -95,7 +95,7 @@ Facebook-Tools-Manager/
 6. O script irá percorrer cada usuário automaticamente e executar as ações de Follow/Unfollow conforme necessário
 
 📽️ *Demonstração visual (GIF):*
-
+![Follow & Unfollow](assets/follow-unfollow.gif)
 
 ---
 
